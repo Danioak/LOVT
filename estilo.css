@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'ropa sans';
+    font-weight: normal;
+}
+header{  
+    padding: 1%;
+    display: flex;
+    top: 2%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+h1{ 
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    margin-left: 3%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    
+    color: #777777;
+}
+h2{  
+    padding: 0.45%;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+}
+.cozinha{
+    margin: 2%;
+    margin-left: 10%;
+    width: 80%;
+    box-sizing: border-box;
+    align-items: center;
+}
+.imagens{  
+    display: flex;
+    justify-content: space-between;
+}
+
+.tcasa{ 
+    overflow-wrap: break-word;
+    background-color: #EEEEEE;
+    margin-left: 10%;
+    width: 39%;
+    text-align: center;
+}
+.tsala{ 
+    overflow-wrap: break-word;
+    background-color: #EEEEEE;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 39%;
+    text-align: center;
+}
+.valor{ 
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 150%;
+    justify-content: space-between;
+    color: #777777;
+}
+h3{ 
+    color: #888888;
+    font-size: 90%;
+    margin-left: 6%;
+    text-align: justify;
+}
+h4{ 
+    margin-top: 5%;
+    color: #888888;
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 2%;
+}
+.rec{ 
+    margin: auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.text1{ 
+    font-size: 150%;
+    margin-right: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+footer{ 
+    padding: 3%;
+    padding-left: 20%;
+    top: 2%;
+    background: #777777;
+    box-shadow: 0px 2px 10px;
+    align-items: justify;
+    margin-left: 15%;
+    margin: auto;
+}
+aside{
+    float: right;
+    text-align: center; 
+    margin-right: 30%;
+    background: #777777;
+    color: #EEEEEE;
+    display: inline-block;
+}
